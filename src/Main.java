@@ -39,18 +39,17 @@ public class Main {
             System.out.println(year + " год не является високосным");
         }
 
-        //Task 4
+        //Task 4 - исправлено после просмотра ролика с решением
         System.out.println("Задание 4");
         int deliveryDistance = 95;
-        if (deliveryDistance < 20)
-         {System.out.println("Банковская карта будет доставлена в течение одних суток");}
-        if (deliveryDistance >= 20 && deliveryDistance < 60)
-        {System.out.println("Для доставки банковской карты потребуется двое суток");}
-        if (deliveryDistance >= 60 && deliveryDistance < 100) {
-            System.out.println("Для доставки банковской карты потребуется трое суток");}
-        else if (deliveryDistance >= 100){
-            System.out.println("Слишком далеко. Извините, но мы не сможем Вам доставить банковскую карту");
+        int deliveryDays = 1;
+        if (deliveryDistance > 20) {
+            deliveryDays++;
         }
+        if (deliveryDistance > 60) {
+            deliveryDays++;
+        }
+        System.out.println("Потребуется дней: " +deliveryDays);
 
         //Task 5
         System.out.println("Задание 5");
