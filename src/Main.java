@@ -51,45 +51,29 @@ public class Main {
         }
         System.out.println("Потребуется дней: " +deliveryDays);
 
-        //Task 5
+        //Task 5 - исправлено после просмотра ролика с решением (невнимательно прочел условие задачи)
         System.out.println("Задание 5");
-        int monthNumber = 13;
+        int monthNumber = 12;
         switch (monthNumber) {
+            case 12:
             case 1:
-                System.out.println("Январь");
-                break;
-            case  2:
-                System.out.println("Февраль");
+            case 2:
+                System.out.println("Зима");
                 break;
             case  3:
-                System.out.println("Март");
-                break;
             case  4:
-                System.out.println("Апрель");
-                break;
             case  5:
-                System.out.println("Май");
+                System.out.println("Весна");
                 break;
             case  6:
-                System.out.println("Июнь");
-                break;
             case  7:
-                System.out.println("Июль");
-                break;
             case  8:
-                System.out.println("Август");
+                System.out.println("Лето");
                 break;
             case  9:
-                System.out.println("Сентябрь");
-                break;
             case  10:
-                System.out.println("Октябрь");
-                break;
             case  11:
-                System.out.println("Ноябрь");
-                break;
-            case  12:
-                System.out.println("Декабрь");
+                System.out.println("Осень");
                 break;
             default:
                 System.out.println("Нет такого месяца");
