@@ -12,6 +12,7 @@ public class Main {
         else {
             System.out.println("Возврат на стартовую ссылку для скачивания приложения");
         }
+
         //Task 2
         System.out.println("Задание 2");
         int clientDeviceYear = 2012;
@@ -31,5 +32,13 @@ public class Main {
             System.out.println("Возврат на стартовую ссылку для скачивания приложения");
         }
 
+        //Task 3
+        System.out.println("Задание 3");
+        int year = 2000;
+        if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
+            System.out.println(year +" год является високосным");
+        } else {
+            System.out.println(year + " год не является високосным");
+        }
     }
 }
